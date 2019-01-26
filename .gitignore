@@ -2,7 +2,10 @@
 
 *.exe
 src/bithost
-src/bithostd*
+src/bithostd
+src/bithostdg
+src/bithostdj
+src/bithostdv
 src/bithost-cli
 src/bithost-tx
 src/test/test_bithost
