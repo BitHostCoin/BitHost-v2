@@ -33,7 +33,7 @@
 #define ENABLE_ZMQ 1
 
 /* parameter and return value type for __fdelt_chk */
-/* #undef FDELT_TYPE */
+#define FDELT_TYPE long int
 
 /* define if the Boost library is available */
 #define HAVE_BOOST /**/
@@ -173,7 +173,7 @@
 /* #undef HAVE_LIBRPCRT4 */
 
 /* Define to 1 if you have the `rt' library (-lrt). */
-/* #undef HAVE_LIBRT */
+#define HAVE_LIBRT 1
 
 /* Define to 1 if you have the `shell32' library (-lshell32). */
 /* #undef HAVE_LIBSHELL32 */

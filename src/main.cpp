@@ -1953,10 +1953,10 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 	else if (nHeight <= 160000 && nHeight > 142000) {
 		ret = blockValue * 169 / 200;					//84.5%;
 	}
-	else if (nHeight <= 166000 && nHeight > 160000) {
+	else if (nHeight <= 166500 && nHeight > 160000) {
 		ret = blockValue * 17 / 20;						//85%;
 	}
-	else if ( nHeight > 166000) {
+	else if ( nHeight > 166500) {
 		ret = blockValue * 9 / 10;						//90%;
 	}
 
@@ -1973,7 +1973,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 
 int mnCollateral()
 {
-    if (chainActive.Height() < 166000 ) {
+    if (chainActive.Height() < 166500 ) {
         return 3000;
 
     } else {
